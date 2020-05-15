@@ -16,6 +16,8 @@ export default {
                 else if(arg) {
                     carry[arg] = true;
                 }
+
+                return carry;
             }, {});
         }
 

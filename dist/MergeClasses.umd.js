@@ -1658,6 +1658,8 @@ var lodash_isobject_default = /*#__PURE__*/__webpack_require__.n(lodash_isobject
         } else if (arg) {
           carry[arg] = true;
         }
+
+        return carry;
       }, {});
     }
   }
