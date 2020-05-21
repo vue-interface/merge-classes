@@ -1,4 +1,3 @@
-import isArray from "lodash.isarray";
 import isObject from "lodash.isobject";
 
 export default {
@@ -10,7 +9,7 @@ export default {
                 if(isObject(arg)) {
                     Object.assign(carry, arg);
                 }
-                else if(isArray(arg)) {
+                else if(Array.isArray(arg)) {
                     carry = carry.concat(arg);
                 }
                 else if(arg) {
