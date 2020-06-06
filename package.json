@@ -1,6 +1,6 @@
 {
   "name": "@vue-interface/merge-classes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue mixin to that adds the `mergeClasses` method to Vue components.",
   "main": "index.js",
   "scripts": {
